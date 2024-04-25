@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Salcity News</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@200&family=Noto+Serif:ital@1&family=Teko:wght@300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <section>
+        <div class="imgSSA">
+          <header>
+              <nav>
+                <ul class="ul">
+                  <li>
+                    <a class="menu" href="#news">| NOTÍCIAS |</a>
+                  </li>
+                  <li>
+                    <a class="menu" href="#subscribe">| ASSINE JÁ |</a>
+                  </li>
+                  <li>
+                    <a class="menu" href="#">| SOBRE NÓS |</a>
+                  </li>
+                  <li>
+                    <a class="menu" href="#contact">| CONTATO |</a>
+                  </li>
+                </ul>
+              </nav>
+          </header>
+          <h1>SalCity News</h1>
+          <img id="botao" src="./Img/down-arrow.svg" alt="seta para baixo" />
+        </div>
+        <script src="./main.js"></script>
+      </div>
+    </section>
+
+    <section id="news">
+      <h2>NOTÍCIAS</h2>
+      <div class="container">
+        <div class="content">
+            <div class="card">
+              <div class="imgCard" id="imgEsportes">
+                <span>ESPORTES</span>
+              </div>
+              <div class="cardContent">
+                <span class="cardTitle">VEJA TUDO SOBRE O BAVI</span>
+                <p>
+                  <br /><b>BAHIA</b> e <small>vitoria da bahia</small> se
+                  enfrentam pela final do campeonato baiano 2024 no estadio
+                  <small>barradão</small>. Lorem ipsum dolor sit amet,
+                  consectetur adipisicing elit.
+                  Aspernatur vel autem id sequi minus magnam obcaecati ipsam,
+                  alias incidunt architecto aliquid, beatae neque aliquam
+                  ducimus, cum accusamus.<br /><br />
+                  <a href="./esportes.html">Ver mais...</a>
+                </p>
+              </div>
+              <div class="cardArrow">
+                <span>&#8679;</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgCard" id="imgSaude">
+                <span>SAÚDE</span>
+              </div>
+              <div class="cardContent">
+                <span class="cardTitle">VÍRUS COMEDOR DE ORIFÍCIO?</span>
+                <p>
+                  <br />Vírus comedor de ânus mata em 30% dos casos e alerta
+                  comunidade científica e deixa japoneses preocupados. Lorem
+                  ipsum dolor #bbmp sit amet, consectetur adipisicing elit.
+                  Quod, commodi mollitia? 666ias incidunt architecto
+                  ali5988quid, beatae neque aliquam ducimus, cum accusamus..<br /><br />
+                  <a href="saude.html">Ver mais...</a>
+                </p>
+              </div>
+              <div class="cardArrow">
+                <span>&#8679;</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgCard" id="imgViolencia">
+                <span>VIOLÊNCIA</span>
+              </div>
+              <div class="cardContent">
+                <span class="cardTitle">GUERRA DE FACÇÕES</span>
+                <p>
+                  <br />Salvador lidera ídices de violencia no brasil. Moradores
+                  reclamam da falta de segurança e não aguentam mais tantos
+                  crimes. Lorem ipsum dolor #bbmp sit amet, consectetur
+                  adipisicing elit. Quod, commodi mollitia? 666ias incidunt
+                  architecto ali5988quid, beatae neque aliquam ducimus, cum
+                  accusamus..<br /><br />
+                  <a href="violencia.html">Ver mais...</a>
+                </p>
+              </div>
+              <div class="cardArrow">
+                <span>&#8679;</span>
+              </div>
+            </div>
+            <div class="card">
+              <div class="imgCard" id="imgGames">
+                <span>GAMES</span>
+              </div>
+              <div class="cardContent">
+                <span class="cardTitle">ORIXÁS NOS VIDEOGAMES</span>
+                <p>
+                  <br />Sabia que a cultura africana tem representantes nos
+                  principais jogos da atualidade?. Lorem ipsum dolor #bbmp sit
+                  amet, consectetur adipisicing elit. Quod, commodi mollitia?
+                  666ias incidunt architecto ali5988quid, beatae neque aliquam
+                  ducimus, cum accusamus..<br /><br />
+                  <a href="./games.html">Ver mais...</a>
+                </p>
+              </div>
+              <div class="cardArrow">
+                <span>&#8679;</span>
+              </div>
+            </div>
+          </articles>
+        </div>
+      </div>
+    </section>
+
+    <section id="subscribe">
+      <h2>ASSINATURA</h2>
+      <div class="container">   
+        <h3><b>Preencha o formulário:</b></h3>
+        <div class="subContent">
+            <div class="formSubscribe" id="formInfos">
+              <br><h4>Dados pessoais:</h4>
+              <input class="inputForm" type="text" placeholder="Nome completo: " required>
+              <input class="inputForm" type="email" placeholder="Seu email: " required>
+              <input class="inputForm" type="tel" placeholder="Seu telefone (Whatsapp): " required>
+              <br><h4>Escolha quais assuntos quer receber no Whatsapp:</h4>
+              <div>
+                <input type="checkbox" name="sectionEsporte" id="sectionEsporte">
+                <label for="sectionEsporte">Esportes</label>
+              </div>
+              <div>
+                <input type="checkbox" name="sectionSaude" id="sectionSaude">
+                <label for="sectionSaude">Saúde</label>
+              </div>
+              <div>
+                <input type="checkbox" name="sectionFofocas" id="sectionFofocas">
+                <label for="sectionFofocas">Fofocas</label>
+              </div>
+              <div>
+                <input type="checkbox" name="sectionViolencia" id="sectionViolencia">
+                <label for="sectionViolencia">Violencia</label>
+              </div>
+              <div>
+                <input type="checkbox" name="sectionDia" id="sectionDia">
+                <label for="sectionDia">Dia-a-Dia</label>
+              </div>
+              <div>
+                <input type="checkbox" name="sectionEvento" id="sectionEvento">
+                <label for="sectionEvento">Eventos</label>
+              </div>
+            </div>
+            <div class="formSubscribe" id="formPay">
+              <h4>Formas de pagamento: </h4>
+              <div>
+                <label for="nameTit">Nome completo do titular:</label>
+                <input type="text" name="nameTit" id="nameTit" required>
+              </div>
+              <div>
+                <label for="cpfTit">CPF do titular:</label>
+                <input type="number" name="cpfTit" id="cpfTit" required>
+              </div>
+              <div>
+                <label for="telTit">Telefone do titular:</label>
+                <input type="tel" name="telTit" id="telTit" required>
+              </div>
+              <div>
+                <label for="nCartao">Número do cartão:</label>
+                <input type="number" name="nCartao" id="nCartao" required>
+              </div>
+              <div>
+                <label for="date">Data de validade:</label>
+                <input type="number" name="date" id="date" required>
+              </div>
+              <div>
+                <label for="cvv">CVV:</label>
+                <input type="number" name="cvv" id="cvv" required>
+              </div>
+            </div>
+            
+        </div>  
+        
+        <br><h3><b>Escolha o seu plano:</b></h3><br>
+        <div id="choice">
+          <div id="payConfirmation">
+            <div>
+              <select id="selectPay" required>
+                <option name="Option1">STANDARD</option>
+                <option name="Option2">PREMIUM</option>
+              </select>
+              <br>
+              <a href="">Termos de condições</a>
+              <label>
+                <input type="checkbox" required>
+                <p><small>Eu li e aceito os termos de condições.</small></p> 
+              </label>
+            </div>
+            <button type="submit">ASSINAR</button>
+          </div>
+          <div id="cardSub" class="subContent">
+            <div class="cardPay" id="standard">
+              <div>
+                <span class="nameCard">STANDARD</span>
+              </div>
+              <div class="cardContentSub">
+                <span class="cardTitle">BENEFÍCIOS:</span>
+                <ol>
+                  <li><p>Sem propagandas (add block);</p></li>
+                  <li><p>Receba conteúdo exclusivo e sem censura por Whatsapp;</p></li>
+                  <li><p>Faça parte do grupo de assinantes, com situações ao vivo da comunidade;</p></li>
+                </ol>
+                <p><b>R$ 10,00 por mês</b></p>
+              </div>
+              <div class="cardArrowPay">
+                <span>&#43;</span>
+              </div>  
+            </div> 
+            <div class="cardPay" id="premium">
+              <div>
+                <span class="nameCard">PREMIUM</span>
+              </div>              
+              <div class="cardContentSub">
+                <span class="cardTitle">BENEFÍCIOS:</span>
+                <ol>
+                  <li><p>Sem propagandas (add block);</p></li>
+                  <li><p>Receba conteúdo exclusivo e sem censura por Whatsapp;</p></li>
+                  <li><p>Pacote de assinaturas Premiere, GloboPlay e R7/PlayPlus;</p></li>
+                  <li><p>Faça parte do grupo de assinantes, com situações ao vivo da comunidade;</p></li>
+                  <li><p>Concorra a prêmios toda semana, e uma moto todo mês.</p></li>
+                </ol>
+                <p><b>R$ 15,00 por mês</b></p>
+              </div>
+              <div class="cardArrowPay">
+                <span>&#43;</span>
+              </div>
+            </div> 
+          </div> 
+        </div>
+      </div>   
+    </section>
+
+    <section id="contact">
+      <h2>CONTATO</h2>
+      <div class="container">  
+        <div class="contact-methods">
+          <div>
+            <h3>Fale conosco:</h3><br>
+            <form>
+              <input type="text" placeholder="Seu nome: " required>
+              <input type="email" placeholder="Seu email: " required>
+              <input type="tel" placeholder="Seu telefone (opcional): ">
+              <textarea placeholder="Sua mensagem: " required></textarea>
+              <button type="submit">Enviar</button>
+            </form>
+          </div>
+          <div>
+            <h3>Nos acompanhe:</h3><br>
+            <ul class="social-links">
+              <li>
+                <a href="#" title="Siga-nos no Facebook: ">
+                  <img src="./Img/facebook.png" alt="logo do facebook">
+                </a>
+              </li>
+              <li>
+                <a href="https://www.instagram.com/wendel.kk/" title="Siga-nos no Instagram: ">
+                  <img src="./Img/instagram.png" alt="logo do instagram">
+                </a>
+              </li>
+              <li>
+                <a href="#" title="Visite nosso canal no YouTube: ">
+                  <img src="./Img/youtube.png" alt="logo do youtube">
+              </li>
+              <li>
+                <a href="https://github.com/Wendel-5988" title="Visite nosso perfil no GitHub:">
+                  <img src="./Img/git.png" alt="logo do GitHub">
+                </a> 
+              </li>
+            </ul>
+          </div>
+
+          <div>
+            <h3>Venha até nós:</h3><br>
+            <a href="https://www.google.com/maps/d/viewer?mid=1zZ6wJkdscm94WMgYshZHdYB9_3Q&hl=en_US&ll=-12.978217999999996%2C-38.504858999999996&z=17" >
+              <p>
+                Arena Fonte Nova nº 666, Nazaré - Salvador - BA
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <p>
+          &copy; SALCITY News |  Todos os direitos reservados  | 2024
+        </p>
+      </div>
+    </footer>
+  </body>                
+</html>

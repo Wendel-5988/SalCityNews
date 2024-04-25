@@ -1,0 +1,462 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 25px;
+  display: flex;
+  margin-bottom: 20px;
+}
+
+header nav li {
+  display: inline;
+  font-size: 18px;
+  align-items: center;
+  justify-content: center;
+}
+
+.menu {
+  background-color: rgba(4, 17, 117, 0.78);
+  text-decoration: none;
+  border: groove #fff;
+  color: #fff;
+  padding: 5px;
+  margin: 30px;
+  box-shadow: 0 8px 5px rgba(3, 12, 74, 0.501);
+  transition: all 300ms linear;
+}
+
+.menu:hover {
+  background-color: rgb(3, 12, 74);
+  box-shadow: 0 10px 8px black;
+  border-radius: #d7d7d7;
+  color: #d7d7d7;
+  padding: 4px;
+  font-size: larger;
+}
+
+header .ul:hover > :not(:hover) {
+  opacity: 0.4;
+  transition: linear 100ms;
+  transform: scale(0.9);
+}
+
+.imgSSA {
+  height: 100vh;
+  background-image: url(./Img/salvador.jpg);
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#botao {
+  width: 50px;
+  margin-bottom: 60px;
+  cursor: pointer;
+  animation: jumping 1s linear infinite;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40vh;
+  width: 200vh;
+  height: 100vh;
+  padding: 10px;
+  font-size: 150px;
+  font-family: "Grenze Gotisch", serif;
+  color: rgba(4, 17, 101, 0.899);
+  text-shadow: -5px 10px 8px rgba(0, 2, 63, 0.187);
+}
+
+@keyframes jumping {
+  from {
+    transform: translateY(-17px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  to {
+    transform: translateY(-17px);
+  }
+}
+
+.container {
+  background-color: rgba(4, 17, 101, 0.899);
+  margin: 0 10vh;
+  height: 100vh;
+}
+
+h2 {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: bolder;
+}
+
+#news {
+  background-image: url(./Img/newsBack.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+#subscribe {
+  background-image: url(./Img/subscribeBack.webp);
+  background-position: center;
+  background-size: cover;
+  height: 120vh;
+}
+
+#contact {
+  background-image: url(./Img/contactsBack.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 95vh;
+}
+#contact .container {
+  height: 75vh;
+}
+
+section .container {
+  background-image: url(./Img/backGround.jpg);
+  background-position: center;
+  background-size: cover; 
+}
+
+.content {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+}
+
+.card {
+  display: flex;
+  margin: 50px;
+  background-image: linear-gradient(rgb(0, 16, 138), rgb(3, 12, 74));
+  overflow: hidden;
+  border-radius: 16px;
+  max-width: 250px;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.487);
+}
+
+.card:hover {
+  background-image: linear-gradient(rgb(0, 30, 255), rgb(0, 13, 96));
+  box-shadow: 0 20px 16px rgba(0, 0, 0, 0.487);
+}
+
+.imgCard {
+  background-position: center;
+  background-size: cover;
+  width: 250px;
+  height: 180px;
+  font-weight: 100;
+  opacity: 0.8;
+  transition: all 0.7s;
+}
+
+.card:hover .imgCard {
+  opacity: 1;
+  width: 340px;
+}
+
+.imgCard span {
+  font-size: 20px;
+  background-color: rgb(4, 18, 105);
+  font-weight: 100;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+}
+
+.card:hover .imgCard span {
+  background-color: rgb(0, 16, 138);
+}
+
+.cardTitle {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.cardContent {
+  margin-top: 5px;
+  padding: 0 10px;
+  overflow: hidden;
+  height: 0;
+  transition: all 0.7s;
+  transform: translateY(30px);
+}
+
+.card:hover .cardContent {
+  padding: 20px;
+  height: 280px;
+  transform: translateY(0);
+}
+
+.cardContent p {
+  font-size: 15px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.cardArrow {
+  padding: 7px;
+  font-size: 25px;
+  transform: rotate(-180deg);
+  transition: all 0.8s;
+}
+.card:hover .cardArrow {
+  transform: rotate(0);
+}
+
+#imgEsportes {
+  background-image: url(./Img/bahia.jpg);
+}
+
+#imgSaude {
+  background-image: url(./Img/covid.jpeg);
+}
+
+#imgViolencia {
+  background-image: url(./Img/violencia.webp);
+}
+
+#imgGames {
+  background-image: url(./Img/iemanja.jpg);
+}
+
+
+#subscribe .container {
+  padding: 30px;
+}
+
+.subContent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: aliceblue; 
+}
+
+#subscribe h3{
+  display: flex;
+  justify-content: center;
+  color: aliceblue;
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+#choice{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#cardSub {
+  display: flex;
+}
+
+#formPay div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+.cardPay {
+  display: flex;
+  margin: 30px;
+  padding: 10px;
+  background-image: linear-gradient(rgb(0, 16, 138), rgb(3, 12, 74));
+  overflow: hidden;
+  border-radius: 16px;
+  align-items: start;
+  justify-content: center;
+  height: 50px;
+  width: 350px;
+  box-shadow: 0 10px 8px rgba(0, 0, 0, 0.487);
+}
+
+.cardPay:hover {
+  background-image: linear-gradient(rgb(0, 30, 255), rgb(0, 13, 96));
+  height: 250px;
+  width: 350px;
+  transition: all 0.7s;
+}
+
+
+#payConfirmation {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+  justify-content: center;
+  color: aliceblue;
+}
+
+#payConfirmation div {
+  display: flex;
+  flex-direction: column;
+}
+
+#payConfirmation div label {
+  display: flex;
+}
+
+#payConfirmation button {
+  cursor: pointer;
+  height: 35px;
+  transition: all 0.3s;
+}
+
+#payConfirmation button:hover {
+  background-image: linear-gradient(rgb(0, 16, 138), rgb(0, 34, 255));
+  color: aliceblue;
+  border: solid 1px aliceblue;
+}
+
+
+.nameCard {
+  margin-top: 10px;
+  font-size: 20px;  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s;
+}
+
+.cardPay:hover .nameCard {
+  transform: rotate(-90deg) translateY(5px) translateX(-100px);
+  transition: all 0.7s;
+  font-weight: bold;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.cardTitle {
+  display: none;
+  font-size: 15px;
+}
+
+.cardPay:hover .cardTitle  {
+  display: inline;
+  transition: all 0.7s;
+}
+
+.cardContentSub {
+  display: none;
+  overflow: hidden;
+  height: auto;
+  width: auto;
+  transition: all 0.7s;
+}
+
+.cardPay:hover .cardContentSub {
+  display: inline;
+  transition: all 0.7s;
+}
+
+.cardContentSub ul {
+  font-size: 15px;
+  font-weight: 100;
+  opacity: 0.8;
+}
+
+.cardPay:hover .cardContentSub ul {
+  height: auto;
+  width: auto;
+  display: inline;
+  transition: all 0.7s;
+}
+
+.cardArrowPay {
+  padding: 7px;
+  font-size: 25px;
+}
+
+.cardPay:hover .cardArrowPay {
+  transform: rotate(45deg);
+  align-self: self-start;
+  transition: all 0.9s;
+  
+}
+
+#formInfos input {
+  margin-bottom: 5px;
+}
+
+.inputForm {
+  display: flex;
+  width: 250px;
+}
+
+.contact-methods {
+  display: flex;
+  padding: 50px;
+  justify-content: space-between;
+  color: aliceblue;
+}
+
+.contact-methods form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 10px;
+  width: 321px;
+  height: 329px;
+}
+
+.contact-methods form input {
+  height: 30px;
+}
+
+.contact-methods form textarea {
+  min-height: 100px;
+}
+
+.contact-methods form button {
+  cursor: pointer;
+  height: 25px;
+  transition: all 0.3s;
+}
+
+.contact-methods form button:hover {
+  background-image: linear-gradient(rgb(0, 16, 138), rgb(0, 34, 255));
+  color: aliceblue;
+  border: solid 1px aliceblue;
+}
+
+.social-links img {
+  height: 35px;
+}
+
+.social-links li {
+  display: inline;
+  margin-right: 10px;
+}
+
+footer{
+  padding: 16px 0;
+  background-color: rgb(0, 0, 0);
+  color:aliceblue;
+  justify-content: center;
+}
+footer p{
+  display: flex;
+  justify-content: center;
+}
+
+section a {
+  color: blanchedalmond;
+  text-decoration: none;
+  font-weight: bold;
+}
